@@ -14,3 +14,9 @@ console.log(myURL.hostname);
 
 // Pathname
 console.log(myURL.pathname);
+
+// Serialized query
+console.log(myURL.search);
+
+// Params
+console.log(myURL.searchParams);
