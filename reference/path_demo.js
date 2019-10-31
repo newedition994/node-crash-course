@@ -1,4 +1,4 @@
 const path = require("path");
 
 // Basename
-console.log(path.basename__filename);
+console.log(path.basename(__filename));
