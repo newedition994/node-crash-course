@@ -24,5 +24,6 @@ console.log(myURL.searchParams);
 // Add Params
 myURL.searchParams.append("abc", "123");
 console.log(myURL.searchParams);
+
 // Looping params
 myURL.searchParams.forEach((value, name) => console.log(`${name}: ${value}`));
